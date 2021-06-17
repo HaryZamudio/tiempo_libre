@@ -33,7 +33,7 @@ class Deporte extends Conexion{
             $this->cant_estudiantes,
         ) ;
         $insert->execute($array_data_user);
-        return "Registro exitoso";
+        return '<a href="http://localhost:8080/tiempo%20libre/index.php"><button class="btn btn-warning">Regresar al formulario</button></a>';
     }
 
 }

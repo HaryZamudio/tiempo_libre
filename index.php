@@ -9,7 +9,7 @@
 
 </head>
 <body>
-<div class="container">
+<div class="container" bg-primary>
     <form method="POST" action="procesos/form_materia.php">
         <div class="form-group">
             <label for="exampleInputEmail1">Deporte</label>
